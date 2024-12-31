@@ -1,6 +1,9 @@
 # Host-Dynamic-App-Using-EKS
 Host a Dynamic Application with Kubernetes and AWS EKS 
 
+### Introduction:
+This Project demonstrates deploying the dynamic application in Elastic Kubernetes cluster. A Containerized Application is deployed in EKS Cluster in the private subnets and and its fronted with the Network Load Balancer for routing the traffic across multiple availability zones and storing the data in RDS(Relational Database Service) also sitting in private subnet. To connect the Private instances, EC2 Instance Connect Endpoint Service for secure SSH access. It leverages end-to-end cloud-native deployment process, showcasing AWS best practices for scalability, security, and cost-efficiency. By combining industry-standard tools with AWS services, the architecture is resilient, secure, and scalable for modern dynamic applications.
+
 ### Architecture
 ![image](https://github.com/user-attachments/assets/9b1a00f4-f0c1-41fa-b701-4911ca6686f9)
 
