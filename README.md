@@ -65,11 +65,31 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 ### **Key Learning Outcomes**
 
 1. Designed and implemented a **VPC from scratch** with public, private, and DB subnets across multiple Availability Zones.
+
+![image](https://github.com/user-attachments/assets/113e04c2-9b46-42f1-abbe-209f87538f36)
+![image](https://github.com/user-attachments/assets/0deb091a-46e8-4232-9553-37a03618a41a)
+
 2. Deployed **Internet Gateway** for internet access to public resources and **NAT Gateway** for private resources to access updates.
 3. Built and deployed a **Docker container** for the web app, hosted on **Amazon ECR**.
+
+![image](https://github.com/user-attachments/assets/75557f19-bea4-4804-8837-d6283e520098)
+
 4. Created and configured **EKS clusters and worker nodes** for high availability.
+
+![image](https://github.com/user-attachments/assets/ac56b3f9-bf25-4b36-9ec4-0834aca0af52)
+![image](https://github.com/user-attachments/assets/d0c54171-e976-4bc3-ae90-3156718cb206)
+
 5. Automated deployment processes with **Kubernetes YAML files** (e.g., `deployment.yaml`, `service.yaml`).
 6. Executed database migrations using **Flyway** scripts hosted on **S3**.
 7. Utilized **Secrets Manager** to secure credentials for EKS workloads.
+
+![image](https://github.com/user-attachments/assets/93d27931-8f04-40bf-9dbb-a1f3256c1156)
+
+
 8. Deployed **TLS/SSL certificates** to ensure secure communication through **ACM**.
 9. Distributed traffic effectively using **NLB** with alias routing via **Route 53**.
+
+![image](https://github.com/user-attachments/assets/55ae24e2-1a3e-403f-ba91-88bdad8d209d)
+
+![image](https://github.com/user-attachments/assets/895310fb-8193-48a8-b099-4720d41fd4f1)
+    
