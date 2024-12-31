@@ -51,11 +51,12 @@ Host a Dynamic Application with Kubernetes and AWS EKS
     - Designed a **custom VPC** with public, private, and database subnets across multiple Availability Zones.
 
 
-## Understanding the EKS Cluster
-**Control Plane:** Managed by AWS, includes essential components like the API server, scheduler, controller manager, and etcd.
-**Worker Nodes:** Hosts containerized applications. These nodes operate on EC2 instances configured within Auto Scaling groups to handle varying loads efficiently.
-**Networking:** Configured secure communication between the control plane and worker nodes.
-**Monitoring and Logging:** Integrated with CloudWatch for real-time monitoring and logging.
+### **Understanding the EKS Cluster**
+
+- **Control Plane**: Managed by AWS, includes essential components like the API server, scheduler, controller manager, and etcd.
+- **Worker Nodes**: Hosts containerized applications. These nodes operate on EC2 instances configured within Auto Scaling groups to handle varying loads efficiently.
+- **Networking**: Configured secure communication between the control plane and worker nodes.
+- **Monitoring and Logging**: Integrated with **CloudWatch** for real-time monitoring and logging.
 
 
 ### **Key Learning Outcomes**
