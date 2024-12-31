@@ -1,6 +1,9 @@
 # Host-Dynamic-App-Using-EKS
 Host a Dynamic Application with Kubernetes and AWS EKS 
 
+### Architecture
+![image](https://github.com/user-attachments/assets/9b1a00f4-f0c1-41fa-b701-4911ca6686f9)
+
 
 
 ### **Project Highlights**
