@@ -3,21 +3,49 @@ Host a Dynamic Application with Kubernetes and AWS EKS
 
 
 
-## Project Highlights
-**Version Control:** Used Git and GitHub for seamless code deployment and storing the codebase efficiently.
-**Containerization:** Containerized the dynamic web application using Docker to ensure consistent runtime environments.
-**RDS MySQL:** Created and configured RDS MySQL to serve as the database for the application.
-**EKS Cluster:** Deployed the containerized web application to an Elastic Kubernetes Service (EKS) Cluster, ensuring scalability and resilience.
-**Kubernetes Tools:** Managed Kubernetes clusters using kubectl, eksctl, and Helm for streamlined operations.
-**EC2 Instance Connect**: Deployed EC2 Instance Connect Endpoint within the private subnet for secure access.
-**TLS/SSL Encryption:** Generated and stored TLS/SSL certificates using AWS Certificate Manager (ACM) for in-transit encryption.
-**Secrets Manager:** Stored cluster credentials securely in Secrets Manager, ensuring safe and centralized access.
-**Database Migration:** Used S3 to store and execute Flyway DB scripts for migrating data to RDS MySQL.
-**Elastic Container Registry (ECR):** Set up ECR to store Docker images for streamlined deployment to EKS.
-**Route 53:** Created a Route 53 alias record to route traffic to the Network Load Balancer (NLB).
-**IAM:** Configured IAM roles and policies for secure access control.
-**Load Balancer:** Deployed a Network Load Balancer (NLB) in public subnets to distribute traffic efficiently across the cluster in multiple AZs.
-**VPC Setup:** Designed a custom VPC with public, private, and database subnets across multiple Availability Zones
+### **Project Highlights**
+
+1. **Version Control**:
+   - Used **Git and GitHub** for seamless code deployment and storing the codebase efficiently.
+
+2. **Containerization**:
+   - Containerized the dynamic web application using **Docker** to ensure consistent runtime environments.
+
+3. **RDS MySQL**:
+   - Created and configured **RDS MySQL** to serve as the database for the application.
+
+4. **EKS Cluster**:
+   - Deployed the containerized web application to an **Elastic Kubernetes Service (EKS) Cluster**, ensuring scalability and resilience.
+
+5. **Kubernetes Tools**:
+   - Managed Kubernetes clusters using **kubectl**, **eksctl**, and **Helm** for streamlined operations.
+
+6. **EC2 Instance Connect**:
+   - Deployed **EC2 Instance Connect Endpoint** within the private subnet for secure access.
+
+7. **TLS/SSL Encryption**:
+   - Generated and stored **TLS/SSL certificates** using **AWS Certificate Manager (ACM)** for in-transit encryption.
+
+8. **Secrets Manager**:
+   - Stored cluster credentials securely in **Secrets Manager**, ensuring safe and centralized access.
+
+9. **Database Migration**:
+   - Used **S3** to store and execute **Flyway DB scripts** for migrating data to RDS MySQL.
+
+10. **Elastic Container Registry (ECR)**:
+    - Set up **ECR** to store Docker images for streamlined deployment to EKS.
+
+11. **Route 53**:
+    - Created a **Route 53** alias record to route traffic to the Network Load Balancer (NLB).
+
+12. **IAM**:
+    - Configured **IAM roles and policies** for secure access control.
+
+13. **Load Balancer**:
+    - Deployed a **Network Load Balancer (NLB)** in public subnets to distribute traffic efficiently across the cluster in multiple AZs.
+
+14. **VPC Setup**:
+    - Designed a **custom VPC** with public, private, and database subnets across multiple Availability Zones.
 
 
 ## Understanding the EKS Cluster
