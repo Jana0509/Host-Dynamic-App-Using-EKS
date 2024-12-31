@@ -93,3 +93,5 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 
 ![image](https://github.com/user-attachments/assets/895310fb-8193-48a8-b099-4720d41fd4f1)
     
+### Conclusion:
+In conclusion, this project highlights the successful implementation of a dynamic application hosted on an AWS EKS Cluster, following cloud-native principles. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient. This hands-on experience reinforces the practical knowledge of designing, deploying, and managing cloud-based applications, making it a significant step forward in mastering modern application hosting solutions.
