@@ -51,7 +51,7 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
     - Deployed a **Network Load Balancer (NLB)** in public subnets to distribute traffic efficiently across the cluster in multiple AZs.
 
 14. **VPC Setup**:
-    - Designed a **custom VPC** with public, private, and database subnets across multiple Availability Zones.
+    - Designed a **custom VPC** from the scratch with public, private, and database subnets across multiple Availability Zones.
 
 
 ### **Understanding the EKS Cluster**
