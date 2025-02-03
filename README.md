@@ -1,6 +1,6 @@
 # Host-Dynamic-App-Using-EKS
 Host a Dynamic Application with Kubernetes and AWS EKS 
-
+--------------------------------------------------
 ### Introduction:
 This Project demonstrates deploying the dynamic application in Elastic Kubernetes cluster. A Containerized Application is deployed in EKS Cluster in the private subnets and and its fronted with the Network Load Balancer for routing the traffic across multiple availability zones and storing the data in RDS(Relational Database Service) also sitting in private subnet. To connect the Private instances, EC2 Instance Connect Endpoint Service for secure SSH access. It leverages end-to-end cloud-native deployment process, showcasing AWS best practices for scalability, security, and cost-efficiency. By combining industry-standard tools with AWS services, the architecture is resilient, secure, and scalable for modern dynamic applications.
 
@@ -8,7 +8,7 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 ![image](https://github.com/user-attachments/assets/9b1a00f4-f0c1-41fa-b701-4911ca6686f9)
 
 
-
+--------------------------------------------------
 ### **Project Highlights**
 
 1. **Version Control**:
@@ -53,7 +53,7 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 14. **VPC Setup**:
     - Designed a **custom VPC** from the scratch with public, private, and database subnets across multiple Availability Zones.
 
-
+--------------------------------------------------
 ### **Understanding the EKS Cluster**
 
 - **Control Plane**: Managed by AWS, includes essential components like the API server, scheduler, controller manager, and etcd.
@@ -61,7 +61,7 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 - **Networking**: Configured secure communication between the control plane and worker nodes.
 - **Monitoring and Logging**: Integrated with **CloudWatch** for real-time monitoring and logging.
 
-
+--------------------------------------------------
 ### **Key Learning Outcomes**
 
 1. Designed and implemented a **VPC from scratch** with public, private, and DB subnets across multiple Availability Zones.
@@ -92,6 +92,7 @@ This Project demonstrates deploying the dynamic application in Elastic Kubernete
 ![image](https://github.com/user-attachments/assets/55ae24e2-1a3e-403f-ba91-88bdad8d209d)
 
 ![image](https://github.com/user-attachments/assets/895310fb-8193-48a8-b099-4720d41fd4f1)
-    
+
+--------------------------------------------------    
 ### Conclusion:
 In conclusion, this project highlights the successful implementation of a dynamic application hosted on an AWS EKS Cluster, following cloud-native principles. By leveraging AWS's robust services and integrating best practices, the architecture delivers high scalability, resilience, and security while remaining cost-efficient. This hands-on experience reinforces the practical knowledge of designing, deploying, and managing cloud-based applications, making it a significant step forward in mastering modern application hosting solutions.
